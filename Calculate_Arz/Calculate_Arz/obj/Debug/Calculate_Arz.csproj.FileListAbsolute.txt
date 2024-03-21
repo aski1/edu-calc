@@ -1,0 +1,11 @@
+C:\Users\Дарья\source\repos\Calculate_Arz\Calculate_Arz\bin\Debug\Calculate_Arz.exe.config
+C:\Users\Дарья\source\repos\Calculate_Arz\Calculate_Arz\bin\Debug\Calculate_Arz.exe
+C:\Users\Дарья\source\repos\Calculate_Arz\Calculate_Arz\bin\Debug\Calculate_Arz.pdb
+C:\Users\Дарья\source\repos\Calculate_Arz\Calculate_Arz\obj\Debug\Calculate_Arz.csproj.AssemblyReference.cache
+C:\Users\Дарья\source\repos\Calculate_Arz\Calculate_Arz\obj\Debug\Calculate_Arz.csproj.SuggestedBindingRedirects.cache
+C:\Users\Дарья\source\repos\Calculate_Arz\Calculate_Arz\obj\Debug\Calculate_Arz.Form1.resources
+C:\Users\Дарья\source\repos\Calculate_Arz\Calculate_Arz\obj\Debug\Calculate_Arz.Properties.Resources.resources
+C:\Users\Дарья\source\repos\Calculate_Arz\Calculate_Arz\obj\Debug\Calculate_Arz.csproj.GenerateResource.cache
+C:\Users\Дарья\source\repos\Calculate_Arz\Calculate_Arz\obj\Debug\Calculate_Arz.csproj.CoreCompileInputs.cache
+C:\Users\Дарья\source\repos\Calculate_Arz\Calculate_Arz\obj\Debug\Calculate_Arz.exe
+C:\Users\Дарья\source\repos\Calculate_Arz\Calculate_Arz\obj\Debug\Calculate_Arz.pdb
