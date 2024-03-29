@@ -13,8 +13,9 @@ namespace WinFormsApp1
         }
 
 
-        int number1 = 0;
-        MathActions action;
+        int curr_result = 0;
+        int curr_number = 0;
+        MathActions action = MathActions.Addition;
 
 
 
@@ -25,48 +26,59 @@ namespace WinFormsApp1
 
 
 
+        void AddNumber(int num)
+        {
+            curr_number = curr_number * 10 + num;
+            tbOut.Text = curr_number.ToString();
+        }
+
+        void Result()
+        {
+            if (action == MathActions.Addition)
+                curr_result = curr_result + curr_number;
+            else if (action == MathActions.Subtraction)
+                curr_result = curr_result - curr_number;
+            curr_number = 0;
+        }
+
+
+
+
         private void btnResult_Click(object sender, EventArgs e)
         {
-            int number2 = int.Parse(tbOut.Text);
-            int result = 0;
-
-            if (action == MathActions.Addition)
-                result = number1 + number2;
-            else if (action == MathActions.Subtraction)
-                result = number1 - number2;
-
-            tbOut.Text = result.ToString();
+            Result();
+            tbOut.Text = curr_result.ToString();
         }
 
 
 
         private void btnNum1_Click(object sender, EventArgs e)
         {
-            tbOut.Text += "1";
+            AddNumber(1);
         }
 
         private void btNum2_Click(object sender, EventArgs e)
         {
-            tbOut.Text += "2";
+            AddNumber(2);
         }
 
         private void btNum3_Click(object sender, EventArgs e)
         {
-            tbOut.Text += "3";
+            AddNumber(3);
         }
 
 
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            number1 = int.Parse(tbOut.Text);
+            Result();
             action = MathActions.Addition;
             tbOut.Text = "";
         }
 
         private void btnSub_Click(object sender, EventArgs e)
         {
-            number1 = int.Parse(tbOut.Text);
+            Result();
             action = MathActions.Subtraction;
             tbOut.Text = "";
         }
