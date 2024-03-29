@@ -4,19 +4,7 @@ namespace WinFormsApp1
 {
     public partial class Form1 : Form
     {
-        enum MathActions
-        {
-            Addition,
-            Subtraction,
-            Multiplication,
-            Division
-        }
-
-
-        int curr_result = 0;
-        int curr_number = 0;
-        MathActions action = MathActions.Addition;
-
+        Calc calc = new Calc();
 
 
         public Form1()
@@ -26,61 +14,50 @@ namespace WinFormsApp1
 
 
 
-        void AddNumber(int num)
-        {
-            curr_number = curr_number * 10 + num;
-            tbOut.Text = curr_number.ToString();
-        }
-
-        void Result()
-        {
-            if (action == MathActions.Addition)
-                curr_result = curr_result + curr_number;
-            else if (action == MathActions.Subtraction)
-                curr_result = curr_result - curr_number;
-            curr_number = 0;
-        }
-
-
-
-
         private void btnResult_Click(object sender, EventArgs e)
         {
-            Result();
-            tbOut.Text = curr_result.ToString();
+            calc.Result();
+            tbOut.Text = calc.curr_result.ToString();
         }
 
 
 
         private void btnNum1_Click(object sender, EventArgs e)
         {
-            AddNumber(1);
+            calc.AddNumber(1);
+            tbOut.Text = calc.curr_number.ToString();
         }
 
         private void btNum2_Click(object sender, EventArgs e)
         {
-            AddNumber(2);
+            calc.AddNumber(2);
+            tbOut.Text = calc.curr_number.ToString();
         }
 
         private void btNum3_Click(object sender, EventArgs e)
         {
-            AddNumber(3);
+            calc.AddNumber(3);
+            tbOut.Text = calc.curr_number.ToString();
         }
 
 
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            Result();
-            action = MathActions.Addition;
-            tbOut.Text = "";
+            calc.SetAction(MathActions.Addition);
+            tbOut.Text = "0";
         }
 
         private void btnSub_Click(object sender, EventArgs e)
         {
-            Result();
-            action = MathActions.Subtraction;
-            tbOut.Text = "";
+            calc.SetAction(MathActions.Subtraction);
+            tbOut.Text = "0";
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            calc.Reset();
+            tbOut.Text = "0";
         }
     }
 }

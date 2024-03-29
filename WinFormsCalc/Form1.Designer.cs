@@ -32,6 +32,7 @@
             tbOut = new TextBox();
             panel1 = new Panel();
             panel2 = new Panel();
+            btnReset = new Button();
             panel3 = new Panel();
             panel4 = new Panel();
             btnSub = new Button();
@@ -63,6 +64,7 @@
             tbOut.Name = "tbOut";
             tbOut.Size = new Size(402, 35);
             tbOut.TabIndex = 1;
+            tbOut.Text = "0";
             // 
             // panel1
             // 
@@ -76,12 +78,23 @@
             // 
             // panel2
             // 
+            panel2.Controls.Add(btnReset);
             panel2.Controls.Add(btnResult);
             panel2.Dock = DockStyle.Bottom;
             panel2.Location = new Point(0, 342);
             panel2.Name = "panel2";
             panel2.Size = new Size(482, 60);
             panel2.TabIndex = 3;
+            // 
+            // btnReset
+            // 
+            btnReset.Location = new Point(140, 10);
+            btnReset.Name = "btnReset";
+            btnReset.Size = new Size(75, 38);
+            btnReset.TabIndex = 1;
+            btnReset.Text = "C";
+            btnReset.UseVisualStyleBackColor = true;
+            btnReset.Click += btnReset_Click;
             // 
             // panel3
             // 
@@ -186,5 +199,6 @@
         private Panel panel4;
         private Button btNum3;
         private Button btnSub;
+        private Button btnReset;
     }
 }
