@@ -34,11 +34,11 @@
             panel2 = new Panel();
             panel3 = new Panel();
             panel4 = new Panel();
+            btnSub = new Button();
             btNum3 = new Button();
             btnNum1 = new Button();
             btnAdd = new Button();
             btNum2 = new Button();
-            btnDiv = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
@@ -95,7 +95,7 @@
             // panel4
             // 
             panel4.Anchor = AnchorStyles.None;
-            panel4.Controls.Add(btnDiv);
+            panel4.Controls.Add(btnSub);
             panel4.Controls.Add(btNum3);
             panel4.Controls.Add(btnNum1);
             panel4.Controls.Add(btnAdd);
@@ -104,6 +104,16 @@
             panel4.Name = "panel4";
             panel4.Size = new Size(328, 267);
             panel4.TabIndex = 1;
+            // 
+            // btnSub
+            // 
+            btnSub.Location = new Point(276, 75);
+            btnSub.Name = "btnSub";
+            btnSub.Size = new Size(34, 38);
+            btnSub.TabIndex = 2;
+            btnSub.Text = "-";
+            btnSub.UseVisualStyleBackColor = true;
+            btnSub.Click += btnSub_Click;
             // 
             // btNum3
             // 
@@ -145,16 +155,6 @@
             btNum2.UseVisualStyleBackColor = true;
             btNum2.Click += btNum2_Click;
             // 
-            // btnDiv
-            // 
-            btnDiv.Location = new Point(276, 75);
-            btnDiv.Name = "btnDiv";
-            btnDiv.Size = new Size(34, 38);
-            btnDiv.TabIndex = 2;
-            btnDiv.Text = "-";
-            btnDiv.UseVisualStyleBackColor = true;
-            btnDiv.Click += btnDiv_Click;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -185,6 +185,6 @@
         private Button btnAdd;
         private Panel panel4;
         private Button btNum3;
-        private Button btnDiv;
+        private Button btnSub;
     }
 }
