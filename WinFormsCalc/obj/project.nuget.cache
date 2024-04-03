@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "SgN4tAuxk4sNDery5t3VYZTRo9D2t+lkrT+vIs2zs2JWr57j4SDElOlTmVVAsihVhCdWYurJJJ0bme2qm127jQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\вт\\Desktop\\Новая папка (4)\\WinFormsCalc\\WinFormsCalc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\вт\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\вт\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\вт\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\вт\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.17\\microsoft.netcore.app.host.win-x64.7.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
