@@ -1,0 +1,17 @@
+C:\Users\вт\Desktop\Новая папка (4)\WinFormsCalc\bin\Debug\net7.0-windows\WinFormsCalc.exe
+C:\Users\вт\Desktop\Новая папка (4)\WinFormsCalc\bin\Debug\net7.0-windows\WinFormsCalc.deps.json
+C:\Users\вт\Desktop\Новая папка (4)\WinFormsCalc\bin\Debug\net7.0-windows\WinFormsCalc.runtimeconfig.json
+C:\Users\вт\Desktop\Новая папка (4)\WinFormsCalc\bin\Debug\net7.0-windows\WinFormsCalc.dll
+C:\Users\вт\Desktop\Новая папка (4)\WinFormsCalc\bin\Debug\net7.0-windows\WinFormsCalc.pdb
+C:\Users\вт\Desktop\Новая папка (4)\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsApp1.Form1.resources
+C:\Users\вт\Desktop\Новая папка (4)\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsCalc.Properties.Resources.resources
+C:\Users\вт\Desktop\Новая папка (4)\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsCalc.csproj.GenerateResource.cache
+C:\Users\вт\Desktop\Новая папка (4)\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsCalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\вт\Desktop\Новая папка (4)\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsCalc.AssemblyInfoInputs.cache
+C:\Users\вт\Desktop\Новая папка (4)\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsCalc.AssemblyInfo.cs
+C:\Users\вт\Desktop\Новая папка (4)\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsCalc.csproj.CoreCompileInputs.cache
+C:\Users\вт\Desktop\Новая папка (4)\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsCalc.dll
+C:\Users\вт\Desktop\Новая папка (4)\WinFormsCalc\obj\Debug\net7.0-windows\refint\WinFormsCalc.dll
+C:\Users\вт\Desktop\Новая папка (4)\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsCalc.pdb
+C:\Users\вт\Desktop\Новая папка (4)\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsCalc.genruntimeconfig.cache
+C:\Users\вт\Desktop\Новая папка (4)\WinFormsCalc\obj\Debug\net7.0-windows\ref\WinFormsCalc.dll
