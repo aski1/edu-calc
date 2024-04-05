@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,10 +16,12 @@ namespace WinFormsApp1
 
     internal class Calc
     {
-        public double curr_number { get; private set; } = 0;
-        public double curr_result { get; private set; } = 0;
-        public string error_div_message { get; private set; } = "";
+        //public delegate void CurrNumberChangeHandler(int number);
+        //public event CurrNumberChangeHandler CurrNumberChange;
+        public event Action<double> CurrNumberChange;
 
+        public int curr_result { get; private set; } = 0;
+        public int curr_number { get; private set; } = 0;
         MathActions action = MathActions.Addition;
 
 
@@ -31,8 +32,9 @@ namespace WinFormsApp1
         {
             curr_result = 0;
             curr_number = 0;
-            error_div_message = "";
             action = MathActions.Addition;
+
+            CurrNumberChangeRun(curr_number);
         }
 
         public void SetAction(MathActions action)
@@ -44,23 +46,38 @@ namespace WinFormsApp1
         public void AddNumber(int num)
         {
             curr_number = curr_number * 10 + num;
+
+            CurrNumberChangeRun(curr_number);
         }
 
         public void Result()
         {
             if (action == MathActions.Addition)
-                curr_result += curr_number;
+                curr_result = curr_result + curr_number;
             else if (action == MathActions.Subtraction)
-                curr_result -= curr_number;
-            else if (action == MathActions.Multiplication)
-                curr_result *= curr_number;            
+                curr_result = curr_result - curr_number;
+
             else if (action == MathActions.Division)
                 if (curr_number != 0)
-                    curr_result /= curr_number;
+                    curr_result = curr_result / curr_number;
                 else
-                    error_div_message = "ERROR";
+                    MessageBox.Show("Введите не 0");
+            
+             else if (action == MathActions.Multiplication)
+                curr_result = curr_result * curr_number;
+            
             curr_number = 0;
+            
+
+
+
+            CurrNumberChangeRun(curr_result);
         }
 
+        void CurrNumberChangeRun(int number)
+        {
+            if (CurrNumberChange != null)
+                CurrNumberChange(number);
+        }
     }
 }
