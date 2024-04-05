@@ -18,7 +18,7 @@ namespace WinFormsApp1
     {
         //public delegate void CurrNumberChangeHandler(int number);
         //public event CurrNumberChangeHandler CurrNumberChange;
-        public event Action<double> CurrNumberChange;
+        public event Action<int> CurrNumberChange;
 
         public int curr_result { get; private set; } = 0;
         public int curr_number { get; private set; } = 0;
@@ -56,20 +56,7 @@ namespace WinFormsApp1
                 curr_result = curr_result + curr_number;
             else if (action == MathActions.Subtraction)
                 curr_result = curr_result - curr_number;
-
-            else if (action == MathActions.Division)
-                if (curr_number != 0)
-                    curr_result = curr_result / curr_number;
-                else
-                    MessageBox.Show("Введите не 0");
-            
-             else if (action == MathActions.Multiplication)
-                curr_result = curr_result * curr_number;
-            
             curr_number = 0;
-            
-
-
 
             CurrNumberChangeRun(curr_result);
         }
