@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinFormsApp1
+namespace CalcLibrary
 {
     public enum MathActions
     {
@@ -14,7 +14,7 @@ namespace WinFormsApp1
         Division
     }
 
-    internal class Calc
+    public class Calc
     {
         //public delegate void CurrNumberChangeHandler(int number);
         //public event CurrNumberChangeHandler CurrNumberChange;
