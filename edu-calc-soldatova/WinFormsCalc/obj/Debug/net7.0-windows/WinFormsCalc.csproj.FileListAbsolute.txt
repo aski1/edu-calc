@@ -1,0 +1,17 @@
+C:\Users\evel\Desktop\edu-calc-22a9ec4e7be8689125db5c3358289e322d0364a4\WinFormsCalc\bin\Debug\net7.0-windows\WinFormsCalc.exe
+C:\Users\evel\Desktop\edu-calc-22a9ec4e7be8689125db5c3358289e322d0364a4\WinFormsCalc\bin\Debug\net7.0-windows\WinFormsCalc.deps.json
+C:\Users\evel\Desktop\edu-calc-22a9ec4e7be8689125db5c3358289e322d0364a4\WinFormsCalc\bin\Debug\net7.0-windows\WinFormsCalc.runtimeconfig.json
+C:\Users\evel\Desktop\edu-calc-22a9ec4e7be8689125db5c3358289e322d0364a4\WinFormsCalc\bin\Debug\net7.0-windows\WinFormsCalc.dll
+C:\Users\evel\Desktop\edu-calc-22a9ec4e7be8689125db5c3358289e322d0364a4\WinFormsCalc\bin\Debug\net7.0-windows\WinFormsCalc.pdb
+C:\Users\evel\Desktop\edu-calc-22a9ec4e7be8689125db5c3358289e322d0364a4\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsCalc.csproj.AssemblyReference.cache
+C:\Users\evel\Desktop\edu-calc-22a9ec4e7be8689125db5c3358289e322d0364a4\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsApp1.Form1.resources
+C:\Users\evel\Desktop\edu-calc-22a9ec4e7be8689125db5c3358289e322d0364a4\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsCalc.csproj.GenerateResource.cache
+C:\Users\evel\Desktop\edu-calc-22a9ec4e7be8689125db5c3358289e322d0364a4\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsCalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\evel\Desktop\edu-calc-22a9ec4e7be8689125db5c3358289e322d0364a4\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsCalc.AssemblyInfoInputs.cache
+C:\Users\evel\Desktop\edu-calc-22a9ec4e7be8689125db5c3358289e322d0364a4\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsCalc.AssemblyInfo.cs
+C:\Users\evel\Desktop\edu-calc-22a9ec4e7be8689125db5c3358289e322d0364a4\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsCalc.csproj.CoreCompileInputs.cache
+C:\Users\evel\Desktop\edu-calc-22a9ec4e7be8689125db5c3358289e322d0364a4\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsCalc.dll
+C:\Users\evel\Desktop\edu-calc-22a9ec4e7be8689125db5c3358289e322d0364a4\WinFormsCalc\obj\Debug\net7.0-windows\refint\WinFormsCalc.dll
+C:\Users\evel\Desktop\edu-calc-22a9ec4e7be8689125db5c3358289e322d0364a4\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsCalc.pdb
+C:\Users\evel\Desktop\edu-calc-22a9ec4e7be8689125db5c3358289e322d0364a4\WinFormsCalc\obj\Debug\net7.0-windows\WinFormsCalc.genruntimeconfig.cache
+C:\Users\evel\Desktop\edu-calc-22a9ec4e7be8689125db5c3358289e322d0364a4\WinFormsCalc\obj\Debug\net7.0-windows\ref\WinFormsCalc.dll
