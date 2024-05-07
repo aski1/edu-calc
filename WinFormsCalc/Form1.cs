@@ -1,5 +1,5 @@
 using System;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+
 
 namespace WinFormsApp1
 {
@@ -56,5 +56,54 @@ namespace WinFormsApp1
         {
             calc.Reset();
         }
+
+        private void btnNum4_Click(object sender, EventArgs e)
+        {
+            calc.AddNumber(4);
+        }
+
+        private void btnNum5_Click(object sender, EventArgs e)
+        {
+            calc.AddNumber(5);
+        }
+
+        private void btnNum6_Click(object sender, EventArgs e)
+        {
+            calc.AddNumber(6);
+        }
+
+        private void btnNum7_Click(object sender, EventArgs e)
+        {
+            calc.AddNumber(7);
+        }
+
+        private void btnNum8_Click(object sender, EventArgs e)
+        {
+            calc.AddNumber(8);
+        }
+
+        private void btnNum9_Click(object sender, EventArgs e)
+        {
+            calc.AddNumber(9);
+        }
+
+        private void btnNum0_Click(object sender, EventArgs e)
+        {
+            calc.AddNumber(0);
+        }
+
+        private void btnDiv_Click(object sender, EventArgs e)
+        {
+            calc.SetAction(MathActions.Division);
+        }
+
+        private void btnMult_Click(object sender, EventArgs e)
+        {
+            calc.SetAction(MathActions.Multiplication);
+        }
+
+       
+
+        
     }
 }
